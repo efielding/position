@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700i');
+:root{
+    --font-family: 'Roboto', sans-serif;
+}
 .static{
     border: 1px solid green;
     padding: 10px;
     position: static;
     margin-bottom: 30px;
+    font-family: var(--font-family);
+    font-style: italic;
 }
 
 .relative-1{
